@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Efficiency Knowledge Sharing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Efficiency Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#forum">Community Forum</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#tools">Water Usage Tools</a></li>
+                <li><a href="#mobile">Mobile App</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Welcome to the Water Efficiency Knowledge Hub</h2>
+        <p>Discover innovative water-saving techniques, share local knowledge, and collaborate to reduce water scarcity worldwide.</p>
+    </section>
+
+    <section id="articles">
+        <h2>Peer-Reviewed Articles</h2>
+        <div class="article">
+            <h3>Effective Irrigation Techniques</h3>
+            <p>A comprehensive guide on optimizing irrigation systems for water conservation.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="article">
+            <h3>Rainwater Harvesting Methods</h3>
+            <p>Learn how to collect and utilize rainwater to supplement water needs.</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <section id="forum">
+        <h2>Community Forum</h2>
+        <p>Join the discussion to share your water-saving experiences and learn from others!</p>
+        <a href="#">Go to Forum</a>
+    </section>
+
+    <section id="videos">
+        <h2>Instructional Videos</h2>
+        <div class="video">
+            <h3>How to Set Up Drip Irrigation</h3>
+            <video width="320" height="240" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video">
+            <h3>Greywater Recycling Techniques</h3>
+            <video width="320" height="240" controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Water Usage Tools</h2>
+        <p>Use our interactive calculator to measure your water consumption and find ways to reduce it.</p>
+        <button id="calculator-btn">Open Calculator</button>
+        <div id="calculator" style="display: none;">
+            <label for="waterUsage">Enter daily water usage (in liters):</label>
+            <input type="number" id="waterUsage" name="waterUsage">
+            <button onclick="calculateSavings()">Calculate Savings</button>
+            <p id="savingsResult"></p>
+        </div>
+    </section>
+
+    <section id="mobile">
+        <h2>Mobile App</h2>
+        <p>Access water-saving tips and tools on the go with our mobile app. <a href="#">Download now!</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Water Efficiency Knowledge Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
